@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/le-frog/jquery-ui.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/start/jquery-ui.css" />
 	<link rel="stylesheet" href="..\SiteAssets\Auto%20Document\Media\CSS\systemProfile.css" />
 	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script type="text/javascript" language="javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
