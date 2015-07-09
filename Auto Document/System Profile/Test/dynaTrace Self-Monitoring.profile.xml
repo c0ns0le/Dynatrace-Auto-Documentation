@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ATTENTION - THIS IS AN AUTOMATICALLY GENERATED FILE -->
+<!-- Manual changes can cause severe problems and system instability -->
+<!-- Apply manual changes only if you have received explicit instructions from dynaTrace Support -->
+<dynatrace version="5.5.0.5226">
+  <systemprofile gomezconvergenceid="-651260826" sysprofgenerated="false" repositoryaccess="true" description="" capture="true" modifiedby="">
+    <technology type="java" />
+    <technology type="dotnet" />
+    <technology type="webserver" />
+    <license interactive="false" />
+    <sensorgroups>
+      <sensorgroup>
+        <sensor featurehash="" order="0" description="App" hint="Default Sensor Group for Java Method Sensor Rules" jssensorttype="" group="Methods" type="java" autoplace="true" userdefined="false" defaultorder="0" key="com.dynatrace.diagnostics.sensorgroup.method.Java.7b3939b6163d" />
+      </sensorgroup>
+      <sensorgroup>
+        <sensor featurehash="" order="0" description="App" hint="Default Sensor Group for .NET Method Sensor Rules" jssensorttype="" group="Methods" type="dotnet" autoplace="true" userdefined="false" defaultorder="0" key="com.dynatrace.diagnostics.sensorgroup.method..NET.7b3939b6163e" />
+      </sensorgroup>
+      <sensorgroup>
+        <sensor featurehash="" order="0" description="App" hint="Default Sensor Group for Java Memory Sensor Rules" jssensorttype="" group="Memory" type="heap" autoplace="true" userdefined="false" defaultorder="0" key="com.dynatrace.diagnostics.sensorgroup.memory.Java.7b3939b6163f" />
+      </sensorgroup>
+      <sensorgroup>
+        <sensor featurehash="" order="0" description="App" hint="Default Sensor Group for .NET Memory Sensor Rules" jssensorttype="" group="Memory" type="dotnetheap" autoplace="true" userdefined="false" defaultorder="0" key="com.dynatrace.diagnostics.sensorgroup.memory..NET.7b3939b61640" />
+      </sensorgroup>
+      <sensorgroup>
+        <sensor featurehash="" order="0" description="App" hint="Default Sensor Group for PHP Sensor Rules" jssensorttype="" group="PHP" type="php" autoplace="true" userdefined="false" defaultorder="0" key="com.dynatrace.diagnostics.sensorgroup.php.PHP.7b3939b61641" />
+      </sensorgroup>
+    </sensorgroups>
+    <measures>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job Blocked Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Accumulated number of blocks of all job executing threads" ischartable="true" metricid="Accumulated Job Blocked Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job Blocked Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Accumulated blocked time of all job executing threads" ischartable="true" metricid="Accumulated Job Blocked Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job CPU Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="CPU time consumed by all executed jobs" ischartable="true" metricid="Accumulated Job CPU Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="192" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job Execution Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed between job execution start and end" ischartable="true" metricid="Accumulated Job Execution Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job Waited Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Accumulated waits of all job executing threads" ischartable="true" metricid="Accumulated Job Waited Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Accumulated Job Waited Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Accumulated wait time of all job executing threads" ischartable="true" metricid="Accumulated Job Waited Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Agent Wait Time During Class Transformation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time the Agent has to wait until classes return from transformation." ischartable="true" metricid="Agent Wait Time During Class Transformation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Analyzed PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of analyzed PurePaths per Interval over all agents." ischartable="true" metricid="Analyzed PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Auto Sensor Bytes per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Bytes allocated on the Server for Auto Sensor." ischartable="true" metricid="Auto Sensor Bytes per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="kilobytes">
+        <color color.blue="0" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Auto Sensor CPU Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The used CPU Time of all Auto Sensor runs per interval." ischartable="true" metricid="Auto Sensor CPU Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="192" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Auto Sensor Run Duration" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The overall duration of one Auto Sensor run (capture stacktraces of all running transactions)." ischartable="true" metricid="Auto Sensor Run Duration" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="128" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Auto Sensor Suspension Duration" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="How long a Thread was suspended during Auto Sensors. Threads are only suspended on .NET and Java 1.4.2." ischartable="true" metricid="Auto Sensor Suspension Duration" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="192" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Average Major GC Collection Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Displays the accumulated time consumed by Major GC activation divided by the accumulated number of Major GC activations within the last Interval" ischartable="true" metricid="Average Major GC Collection Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Average Major GC Collection Time, since start of the VM" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Displays the accumulated time consumed by Major GC activation divided by the accumulated number of Major GC activations since the start of the VM." ischartable="true" metricid="Average Major GC Collection Time, since start of the VM" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Average waiting time for a Thread" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Average time spent waiting for a Thread to execute job" ischartable="true" metricid="Average waiting time for a Thread" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="128" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Business Transaction Measure Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of dynamic measures in the performance ware house, grouped by measure type or business transaction name in case of business transaction based measures" ischartable="true" metricid="Business Transaction Measure Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="count">
+        <color color.blue="0" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Bytes Read from Agent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The total number of bytes received from the agent. This is often an indicator of the overhead caused by the agent." ischartable="true" metricid="Bytes Read from Agent" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="bytes">
+        <color color.blue="192" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Bytes Read from Agent (Auto Sensor)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The total number of bytes received from the agent that was caused by Auto Sensors." ischartable="true" metricid="Bytes Read from Agent (Auto Sensor)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="bytes">
+        <color color.blue="128" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Bytes Received per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Bytes Received by Out of Process Collector Communication per Interval." ischartable="true" metricid="Bytes Received per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="bytes">
+        <color color.blue="192" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Bytes Sent per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Bytes Sent by Out of Process Collector Communication per Interval." ischartable="true" metricid="Bytes Sent per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="bytes">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - Client Requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - Client Requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - Event Correlation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - Event Correlation" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - JVM - Internal" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Enable via -Dcom.dynatrace.diagnostics.core.cpuselfmonitoring.jvminternals=true" ischartable="true" metricid="CPU Utilization - JVM - Internal" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - JVM - Old Generation Collections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Enable via -Dcom.dynatrace.diagnostics.core.cpuselfmonitoring.jvminternals=true" ischartable="true" metricid="CPU Utilization - JVM - Old Generation Collections" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - JVM - Young Generation Collections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Enable via -Dcom.dynatrace.diagnostics.core.cpuselfmonitoring.jvminternals=true" ischartable="true" metricid="CPU Utilization - JVM - Young Generation Collections" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - Realtime Analysis" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - Realtime Analysis" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - Repository" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - Repository" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - Session Storage" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - Session Storage" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="CPU Utilization - UEM Correlation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="CPU Utilization - UEM Correlation" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Cancelled Executions due to running Job" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of execution cancellations caused by still active previous execution" ischartable="true" metricid="Cancelled Executions due to running Job" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Class Cache Accesses" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Class Cache Accesses" ischartable="true" metricid="Class Cache Accesses" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Class Cache File Add Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Class Cache File Add Count" ischartable="true" metricid="Class Cache File Add Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Class Cache Size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Class Cache Size" ischartable="true" metricid="Class Cache Size" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Client communication threads" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Threads running for the communication session between this dynaTrace Server and the dynaTrace Client." ischartable="true" metricid="Client communication threads" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Client Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Client socket connections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Socket connections opened between this dynaTrace Server and the dynaTrace Client." ischartable="true" metricid="Client socket connections" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Client Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Collector communication threads" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Threads running for the communication session between this dynaTrace Server and the dynaTrace Collector." ischartable="true" metricid="Collector communication threads" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Collector socket connections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Socket connections opened between this dynaTrace Server and the dynaTrace Collector." ischartable="true" metricid="Collector socket connections" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Collectorside Receive Buffer Saturation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Native buffer saturation on the Collector's side for communication between Agent and Collector." ischartable="true" metricid="Collectorside Receive Buffer Saturation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Communication Bytes Transported" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Bytes Transported on communication layer." ischartable="true" metricid="Communication Bytes Transported" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="bytes">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Communication Compression Rate" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Achieved compression rate on communication layer." ischartable="true" metricid="Communication Compression Rate" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Completed PurePaths per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Completed PurePaths per Interval." ischartable="true" metricid="Completed PurePaths per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="DC-RUM Failed PurePath lookup in Stored Session" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Data records with a PurePath ID which was already stored, but was not found in the cache (any more). The Data record could not be written to the Session Storage. Expected to be zero unless there is a problem." ischartable="true" metricid="DC-RUM Failed PurePath lookup in Stored Session" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="139" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="DC-RUM Records" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Count of received DC-RUM data correlations per PurePath (i.e. the sum of &quot;for live PurePath&quot; + &quot;for stored PurePath&quot; + &quot;before PurePath&quot;)." ischartable="true" metricid="DC-RUM Records" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="50" color.green="205" color.red="50" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="DC-RUM Records for live PurePath" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of DC-RUM data correlations per PurePath where the related PurePath was in live session." ischartable="true" metricid="DC-RUM Records for live PurePath" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="255" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="DC-RUM Records for stored PurePath" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of DC-RUM data correlations per PurePath where the related PurePath was already stored to persistent file storage." ischartable="true" metricid="DC-RUM Records for stored PurePath" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="96" color.green="164" color.red="244" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="DC-RUM Records without PurePath" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of DC-RUM data correlations per PurePath where the related PurePath was not available yet. This can happen if DC-RUM data is received before the PurePath arrives. The data is cached until the actual PurePath data is received." ischartable="true" metricid="DC-RUM Records without PurePath" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="139" color.green="139" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="EventSender Buffer Saturation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="EventSender buffers used versus available." ischartable="true" metricid="EventSender Buffer Saturation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="EventSender Buffers Used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of EventSender buffers used." ischartable="true" metricid="EventSender Buffers Used" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Free Disk Space" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Free Disk Space on Server device (in megabytes)." ischartable="true" metricid="Free Disk Space" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Free Physical Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving Free Physical Memory in megabytes." ischartable="true" metricid="Free Physical Memory" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Free Physical Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Free Physical Memory in megabytes" ischartable="true" metricid="Free Physical Memory" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="GC Activations (major + minor)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Garbage Collector activations per Interval." ischartable="true" metricid="GC Activations (major + minor)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="GC Caused Suspension Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting GC caused suspensions per Interval." ischartable="true" metricid="GC Caused Suspension Count" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="GC Caused Suspension Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Suspension time caused by GC per Interval." ischartable="true" metricid="GC Caused Suspension Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="GC Collection Time (major + minor)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving Garbage Collector Collection Time in milliseconds." ischartable="true" metricid="GC Collection Time (major + minor)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Global Agent Time (Delta)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Global Agent Time (Delta)" ischartable="true" metricid="Global Agent Time (Delta)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="128" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Incomplete Measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Incomplete Measurements." ischartable="true" metricid="Incomplete Measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Instrumentor Response Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Instrumentor Response Time" ischartable="true" metricid="Instrumentor Response Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Job Executions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of job executions performed by the job center" ischartable="true" metricid="Job Executions" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Loaded Classes Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Loaded Classes Count" ischartable="true" metricid="Loaded Classes Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="MPS (Nodes per Second)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="MPS (Nodes per Second)." ischartable="true" metricid="MPS (Nodes per Second)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Major GC Activations" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Major GC activations per Interval. A Major Garbage Collection covers all heap memory pools and may halt all other activities of the VM while the collection is going on." ischartable="true" metricid="Major GC Activations" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Major GC Collection Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving Major GC Collection Time in milliseconds per Interval. A Major Garbage Collection covers all heap memory pools and may halt all other activities of the VM while the collection is going on." ischartable="true" metricid="Major GC Collection Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Major Garbage Collection Activations" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Major Garbage Collection Activations" ischartable="true" metricid="Major Garbage Collection Activations" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Major Garbage Collection Activations Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Major Garbage Collection Activations Time" ischartable="true" metricid="Major Garbage Collection Activations Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Minor GC Activations" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Minor GC activations per Interval. A Minor Garbage Collection covers only a subset of the available heap memory pools. Other activities of the VM are not interrupted by a minor garbage collection." ischartable="true" metricid="Minor GC Activations" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Minor GC Collection Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving Minor GC Collection Time in milliseconds per Interval. A Minor Garbage Collection covers only a subset of the available heap memory pools. Other activities of the VM are not interrupted by a minor garbage collection." ischartable="true" metricid="Minor GC Collection Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Minor Garbage Collection Activations" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Minor Garbage Collection Activations" ischartable="true" metricid="Minor Garbage Collection Activations" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Minor Garbage Collection Activations Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Minor Garbage Collection Activations Time" ischartable="true" metricid="Minor Garbage Collection Activations Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Missed Triggers" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of scheduled Job executions minus number of performed Job executions for the last 10 seconds" ischartable="true" metricid="Missed Triggers" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Non Business Transaction Measure Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of dynamic measures in the performance ware house, grouped by measure type or business transaction name in case of business transaction based measures" ischartable="true" metricid="Non Business Transaction Measure Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="count">
+        <color color.blue="192" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Nr of Next Triggers" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of Triggers to be fired in the next 10 seconds" ischartable="true" metricid="Nr of Next Triggers" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Nr of waits for Thread" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of times no thread was immediately available for job execution" ischartable="true" metricid="Nr of waits for Thread" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Agents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Connected Agents" ischartable="true" metricid="Number of Agents" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Analysis Server socket connections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of socket connections opened to the Analysis Server." ischartable="true" metricid="Number of Analysis Server socket connections" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Client Requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of requests received from connected Clients." ischartable="true" metricid="Number of Client Requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Clients" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of connected Clients." ischartable="true" metricid="Number of Clients" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Collector Requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of requests received from connected Collectors." ischartable="true" metricid="Number of Collector Requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Collectors" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of connected Collectors." ischartable="true" metricid="Number of Collectors" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Concurrent Linked RootPaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The Number of currently incomplete, processing linked RootPaths." ischartable="true" metricid="Number of Concurrent Linked RootPaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Concurrent PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The Number of currently incomplete, processing PurePaths." ischartable="true" metricid="Number of Concurrent PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Created Incidents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of created Incidents per Interval" ischartable="true" metricid="Number of Created Incidents" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Cyclic Event Analyzer Threads" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of cyclic event analysis worker threads automatically spawned by the server." ischartable="true" metricid="Number of Cyclic Event Analyzer Threads" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Measures (Percentiles)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of Measures (Percentiles Buffer Size)." ischartable="true" metricid="Number of Measures (Percentiles)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Measures (Time Series)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of Measures (Time Series Buffer Size)." ischartable="true" metricid="Number of Measures (Time Series)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <thresholds threshold.upper.warning="225000.0" />
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Method Records (Auto Sensor)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Total Number of Methods found by Auto Sensor per Agent." ischartable="true" metricid="Number of Method Records (Auto Sensor)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Not Transaction Based Measures (Time Series)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of not PurePath based measures, for example, Used Memory in the Time Series Buffer." ischartable="true" metricid="Number of Not Transaction Based Measures (Time Series)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Pending Linked RootPaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The Number of currently incomplete, pending linked RootPaths." ischartable="true" metricid="Number of Pending Linked RootPaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Realtime Path Analyzer Threads" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of realtime analysis worker threads automatically spawned by the server." ischartable="true" metricid="Number of Realtime Path Analyzer Threads" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Server-Client Broadcasts" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of broadcast requests sent from the Server to its Clients." ischartable="true" metricid="Number of Server-Client Broadcasts" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Sessions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of sessions stored within the dynaTrace session directory" ischartable="true" metricid="Number of Sessions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of Transaction Based Measures (Time Series)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of PurePath based measures, for example, PurePath Duration in the Time Series Buffer." ischartable="true" metricid="Number of Transaction Based Measures (Time Series)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of connected Agents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of connected Agents." ischartable="true" metricid="Number of connected Agents" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of licensed Agents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of licensed Agents." ischartable="true" metricid="Number of licensed Agents" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Number of locked Sessions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of sessions that are locked (are never automatically deleted) within the dynaTrace session directory" ischartable="true" metricid="Number of locked Sessions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Peak Concurrent Threads" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Max concurrently running threads for job executions" ischartable="true" metricid="Peak Concurrent Threads" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Percentiles High Queue Size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of Entries in Percentiles High Queue." ischartable="true" metricid="Percentiles High Queue Size" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Number of Measurements Written" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of measurements written in the last interval into the Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Number of Measurements Written " measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Percentage of time spent writing baseline measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of time spent writing baseline into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Percentage of time spent writing baseline measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="0" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Percentage of time spent writing dynamic measures" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of time spent writing dynamic measures into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Percentage of time spent writing dynamic measures" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Percentage of time spent writing measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of time spent writing measurements into Performance Warehouse, the writing task is triggered" ischartable="true" metricid="Performance Warehouse - Percentage of time spent writing measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <thresholds threshold.upper.severe="90.0" threshold.upper.warning="60.0" />
+        <color color.blue="192" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Percentage of time spent writing temporary measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of time spent writing temporary measurements into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Percentage of time spent writing temporary measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Reading Charting data (Measurements)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for fetching measurements from the Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Reading Charting data (Measurements)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Reading Charting data (Percentiles)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for fetching percentiles from the Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Reading Charting data (Percentiles)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Reading Incidents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time spent reading incident from the Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Reading Incidents" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Switching Temp Tables Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for the movement of data from the temporary table to measurement table" ischartable="true" metricid="Performance Warehouse - Switching Temp Tables Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <thresholds threshold.upper.severe="1200000.0" threshold.upper.warning="900000.0" />
+        <color color.blue="0" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Time elapsed by the Clean Up Task" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed running the Performance Warehouse Clean Up task." ischartable="true" metricid="Performance Warehouse - Time elapsed by the Clean Up Task" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Baseline Measurements Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for writing baseline into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Writing Baseline Measurements Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Dynamic Measures Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for writing dynamic measures into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Writing Dynamic Measures Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Incidents Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time spent writing incidents into the Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Writing Incidents Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="128" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Measurements Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for writing measurements into temporary table" ischartable="true" metricid="Performance Warehouse - Writing Measurements Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <thresholds threshold.upper.severe="55000.0" threshold.upper.warning="40000.0" />
+        <color color.blue="64" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Percentiles Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for writing percentiles into percentiles table" ischartable="true" metricid="Performance Warehouse - Writing Percentiles Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <thresholds threshold.upper.severe="600000.0" threshold.upper.warning="300000.0" />
+        <color color.blue="0" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Performance Warehouse - Writing Temporary Measurements Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time elapsed for writing temporary measurements into Performance Warehouse" ischartable="true" metricid="Performance Warehouse - Writing Temporary Measurements Time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Process CPU Utilization" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving Process CPU Time during the last sample interval in percent of the available process time (sample time multiplied by number of processors)." ischartable="true" metricid="Process CPU Utilization" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Process CPU Utilization" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Process CPU Time Utilization" ischartable="true" metricid="Process CPU Utilization" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Processed Measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Processed Measurements per Interval over all agents." ischartable="true" metricid="Processed Measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="PurePath Buffer Duration" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time Difference between oldest and youngest PurePath in Memory." ischartable="true" metricid="PurePath Buffer Duration" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="s">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="PurePath Buffer Node Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of PurePath Nodes kept in memory" ischartable="true" metricid="PurePath Buffer Node Count" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="PurePath Buffer Size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of PurePaths kept in memory." ischartable="true" metricid="PurePath Buffer Size" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="PurePath Length" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Average Length of PurePaths in Memory." ischartable="true" metricid="PurePath Length" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Recently stored PurePath cache size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Current size of the cache for recently stored PurePaths." ischartable="true" metricid="Recently stored PurePath cache size" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="180" color.green="130" color.red="70" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Recorded PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of recorded PurePaths per Interval over all agents." ischartable="true" metricid="Recorded PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="SUD Wait Time During Class Transformation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time the monitored process has to wait until classes return from transformation (including Agent synchronization times)." ischartable="true" metricid="SUD Wait Time During Class Transformation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Scheduler Thread Block Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Block time of the Scheduler Management Thread" ischartable="true" metricid="Scheduler Thread Block Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="64" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Scheduler Thread Exec Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Execution time of the Scheduler Management Thread" ischartable="true" metricid="Scheduler Thread Exec Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="128" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Scheduler Thread Wait Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Wait time of the Scheduler Management Thread" ischartable="true" metricid="Scheduler Thread Wait Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ns">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Send Buffer Queue Committed Size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Send Buffer Queue Committed Size." ischartable="true" metricid="Send Buffer Queue Committed Size" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Send Buffer Queue Used Size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Send Buffer Queue Used Size." ischartable="true" metricid="Send Buffer Queue Used Size" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Send Queue Saturation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Send Queue Saturation" ischartable="true" metricid="Send Queue Saturation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Serverside Receive Buffer Saturation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Serverside Receive Buffer Saturation" ischartable="true" metricid="Serverside Receive Buffer Saturation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Incident writing time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing incidents to disk" ischartable="true" metricid="Session storage - Incident writing time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Measurements writing time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing measurements to disk" ischartable="true" metricid="Session storage - Measurements writing time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Percentage of time spent writing sessions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The percentage of time spent writing sessions to disk" ischartable="true" metricid="Session storage - Percentage of time spent writing sessions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - PurePath writing time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing PurePaths to disk" ischartable="true" metricid="Session storage - PurePath writing time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Session writing time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing sessions to disk" ischartable="true" metricid="Session storage - Session writing time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Share of writing PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The percentage of session writing time that is used for writing PurePaths" ischartable="true" metricid="Session storage - Share of writing PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Share of writing incidents" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The percentage of the session writing time that is used for writing incidents" ischartable="true" metricid="Session storage - Share of writing incidents" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Share of writing measurements" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The percentage of the session writing time that is used for writing time series" ischartable="true" metricid="Session storage - Share of writing measurements" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="1" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Share of writing updates" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The percentage of the session writing time that is used for writing updates" ischartable="true" metricid="Session storage - Share of writing updates" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Update writing time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing updates to disk" ischartable="true" metricid="Session storage - Update writing time" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="128" color.green="0" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Session storage - Writing time of a single PurePath" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The time spent writing a single PurePath to disk" ischartable="true" metricid="Session storage - Writing time of a single PurePath" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Size of Cyclic Event Queue" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The size of the internal cyclic event (for example, JMX events) queue." ischartable="true" metricid="Size of Cyclic Event Queue" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Size of Realtime Path Analyzer Queue" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The size of the internal realtime analysis queue." ischartable="true" metricid="Size of Realtime Path Analyzer Queue" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Size of Session Storage Queue" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The size of the internal session storage queue." ischartable="true" metricid="Size of Session Storage Queue" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped Events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Skipped Events per Interval over all agents." ischartable="true" metricid="Skipped Events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped Events (Server)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting events skipped on dynaTrace Server per Interval." ischartable="true" metricid="Skipped Events (Server)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped Events per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Skipped Events per Interval." ischartable="true" metricid="Skipped Events per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped Non-Analyzed PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of skipped non-analyzed PurePaths per Interval over all agents." ischartable="true" metricid="Skipped Non-Analyzed PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting Skipped PurePaths per Interval over all agents." ischartable="true" metricid="Skipped PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped PurePaths per Interval" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Skipped PurePaths per Interval." ischartable="true" metricid="Skipped PurePaths per Interval" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped foreign PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of PurePaths with an Agent unknown to this server" ischartable="true" metricid="Skipped foreign PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Skipped outdated Timeseries Measurements per Second" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of outdated measurements skipped by the time series center per second." ischartable="true" metricid="Skipped outdated Timeseries Measurements per Second" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="String Cache Hit Ratio (JDBC/ADO.NET SQL Statements)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of successful cache hits of JDBC/ADO.NET string cache." ischartable="true" metricid="String Cache Hit Ratio (JDBC/ADO.NET SQL Statements)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="String Cache Hit Ratio (Log Messages)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of successful cache hits of log message string cache" ischartable="true" metricid="String Cache Hit Ratio (Log Messages)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="String Cache Hit Ratio (Logger Names)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of successful cache hits of logger name string cache" ischartable="true" metricid="String Cache Hit Ratio (Logger Names)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="0" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="String Cache Hit Ratio (Web Request)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of successful cache hits of web request string cache" ischartable="true" metricid="String Cache Hit Ratio (Web Request)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Code Cache committed" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="2" jvmid="0" memorypoolid="0" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Code Cache percent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Memory Percentage of a specific memory pool related to Committed Memory." ischartable="true" metricid="Memory Pool Utilization" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <memorypoolmeasureconfig memorypoolattributeid="3" jvmid="0" memorypoolid="0" />
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Code Cache used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="0" jvmid="0" memorypoolid="0" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Eden Space committed" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="2" jvmid="0" memorypoolid="1" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Eden Space percent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Memory Percentage of a specific memory pool related to Committed Memory." ischartable="true" metricid="Memory Pool Utilization" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <memorypoolmeasureconfig memorypoolattributeid="3" jvmid="0" memorypoolid="1" />
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Eden Space used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="0" jvmid="0" memorypoolid="1" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Old Gen committed" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="2" jvmid="0" memorypoolid="5" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Old Gen percent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Memory Percentage of a specific memory pool related to Committed Memory." ischartable="true" metricid="Memory Pool Utilization" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <memorypoolmeasureconfig memorypoolattributeid="3" jvmid="0" memorypoolid="5" />
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Old Gen used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="0" jvmid="0" memorypoolid="5" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Perm Gen committed" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="2" jvmid="0" memorypoolid="4" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Perm Gen percent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Memory Percentage of a specific memory pool related to Committed Memory." ischartable="true" metricid="Memory Pool Utilization" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <memorypoolmeasureconfig memorypoolattributeid="3" jvmid="0" memorypoolid="4" />
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Perm Gen used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="0" jvmid="0" memorypoolid="4" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Survivor Space committed" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="2" jvmid="0" memorypoolid="2" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Survivor Space percent" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Memory Percentage of a specific memory pool related to Committed Memory." ischartable="true" metricid="Memory Pool Utilization" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <memorypoolmeasureconfig memorypoolattributeid="3" jvmid="0" memorypoolid="2" />
+        <color color.blue="128" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Sun/Oracle Survivor Space used" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Amount of currently Used or Committed Memory of a specific memory pool in megabytes." ischartable="true" metricid="Memory Pool" autosubscribed="false" measuretype="MemoryPoolMeasure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <memorypoolmeasureconfig memorypoolattributeid="0" jvmid="0" memorypoolid="2" />
+        <color color.blue="128" color.green="64" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="TMPS (Timeseries Measurements per Second)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of measurements handled by the time series center per second." ischartable="true" metricid="TMPS (Timeseries Measurements per Second)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="TPS (Timeseries per Second)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="TPS (Timeseries per Second)." ischartable="true" metricid="TPS (Timeseries per Second)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Thread Pool Load" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Percentage of currently used Threads in the pool" ischartable="true" metricid="Thread Pool Load" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Thread Utilization" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Thread activity percentage. 100% = all threads running continuously" ischartable="true" metricid="Thread Utilization" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Job Center Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="128" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Time needed for Analyzed PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Time in milliseconds needed to analyze PurePaths per Interval over all agents." ischartable="true" metricid="Time needed for Analyzed PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="64" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Business Transaction Measure Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The total number of dynamic business transaction measures in the performance warehouse" ischartable="true" metricid="Total Business Transaction Measure Count" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="count">
+        <color color.blue="192" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Committed Heap Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving amount of Heap Memory currently committed to the virtual machine in megabytes" ischartable="true" metricid="Total Committed Heap Memory" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="0" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Committed Heap Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Total Committed Heap Memory in megabytes" ischartable="true" metricid="Total Committed Heap Memory" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="0" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Heap Memory Utilization" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used Heap Memory Percentage related to the Committed Heap Memory of the virtual machine" ischartable="true" metricid="Total Heap Memory Utilization" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Heap Memory Utilization" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Total Committed Heap Memory Percentage" ischartable="true" metricid="Total Heap Memory Utilization" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="percent">
+        <color color.blue="192" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Non Business Transaction Measure Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The total number of dynamic measures in the performance warehouse" ischartable="true" metricid="Total Non Business Transaction Measure Count" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="count">
+        <color color.blue="64" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Session size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The size of all sessions stored within the dynaTrace session directory" ischartable="true" metricid="Total Session size" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Used Heap Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving amount of Heap Memory currently used by the virtual machine in megabytes." ischartable="true" metricid="Total Used Heap Memory" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="128" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total Used Heap Memory" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Total Used Heap Memory" ischartable="true" metricid="Total Used Heap Memory" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="128" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total locked Session size" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The size of all sessions that are locked (are never automatically deleted) within the dynaTrace session directory" ischartable="true" metricid="Total locked Session size" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Total number of socket connections" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Total number of socket connections opened either by Clients, Collectors or to the Analysis Server." ischartable="true" metricid="Total number of socket connections" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Transactions per Auto Sensor Run" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="The number of transactions gathered in one Auto Sensor run." ischartable="true" metricid="Transactions per Auto Sensor Run" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Transformation Count" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Transformation Count" ischartable="true" metricid="Transformation Count" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Available License Volume" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Available License Volume for User Experience Management" ischartable="true" metricid="UEM - Available License Volume" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of active actions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of active actions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of active mobile web requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of active mobile web requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of active sessions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of active sessions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of active web requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of active web requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of bounce visits" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of bounce visits, i.e. a visit containing just one action." ischartable="true" metricid="UEM - Number of bounce visits" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="0" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of dropped events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of dropped events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of enqueued events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of enqueued events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="0" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of enqueued mobile events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of enqueued mobile events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of enqueued partial events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of enqueued partial events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of internal errors" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of internal errors" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of linked web requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of linked web requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of long lasting visits" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of long lasting visits. Each hour of a visit duration is considered like a new visit." ischartable="true" metricid="UEM - Number of long lasting visits" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed action previews" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed action previews" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed actions (excl. subactions)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed actions (excl. subactions)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed actions (incl. subactions)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed actions (incl. subactions)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile actions (excl. subactions)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile actions (excl. subactions)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile actions (incl. subactions)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile actions (incl. subactions)" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile custom values" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile custom values" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile errors" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile errors" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="0" color.green="64" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile lifecycle actions" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile lifecycle actions" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile named events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile named events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed mobile requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed mobile requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed web requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed web requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="192" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of processed websocket requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of processed websocket requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of skipped mobile events" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of skipped mobile events" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="64" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of unlinked web requests" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="" ischartable="true" metricid="UEM - Number of unlinked web requests" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="128" color.green="128" color.red="192" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Number of visits" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Number of visits." ischartable="true" metricid="UEM - Number of visits" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="64" color.green="128" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="UEM - Used License Volume Percentage" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Used License Volume Percentage for User Experience Management" ischartable="true" metricid="UEM - Used License Volume Percentage" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="percent">
+        <color color.blue="64" color.green="192" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Unrecorded PurePaths" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Counting number of unrecorded PurePaths per Interval over all agents." ischartable="true" metricid="Unrecorded PurePaths" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Virtual Agent Time" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Virtual Agent Time" ischartable="true" metricid="Virtual Agent Time" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="0" color.green="0" color.red="128" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Virtual Agent Time (Delta)" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Virtual Agent Time (Delta)" ischartable="true" metricid="Virtual Agent Time (Delta)" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="ms">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Virtual Memory Committed to the VM" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Retrieving amount of virtual memory the operating system currently committed to the process that hosts the virtual machine in megabytes." ischartable="true" metricid="Virtual Memory Committed to the VM" measuretype="Measure" isaggregated="true" metricgroupid="dynaTrace Server Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="64" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="Virtual Memory Committed to the VM" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="Collector Virtual Memory Committed to the Virtual Machine" ischartable="true" metricid="Virtual Memory Committed to the VM" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace Collector Statistics" displayaggregations="23" calculatebaseline="false" displayunit="megabytes">
+        <color color.blue="192" color.green="128" color.red="0" />
+      </measure>
+      <measure isapplicationaggregated="true" errorseverity="none" servicecontext="SERVER" userdefined="true" id="ZDC Event Buffer Saturation" calculatepercentiles="false" createdtimestamp="1369338792682" errortype="none" rate="purepath" description="ZDC Event Buffer Saturation" ischartable="true" metricid="ZDC Event Buffer Saturation" measuretype="Measure" isaggregated="false" metricgroupid="dynaTrace System Performance" displayaggregations="31" calculatebaseline="false" displayunit="number">
+        <color color.blue="192" color.green="0" color.red="64" />
+      </measure>
+    </measures>
+    <schedules rev="0c948f3b-0fc5-41b7-aada-b988dd27e5bb">
+      <schedule id="Every 10 Seconds" timezone="America/Chicago" useservertimezone="false">
+        <trigger recurrmode="seconds" interval="10" endmode="date" repeat="-1" end="0" begin="0" include="true" />
+      </schedule>
+      <schedule id="Every Minute" timezone="America/Chicago" useservertimezone="false">
+        <trigger recurrmode="minutes" interval="1" endmode="date" repeat="-1" end="0" begin="0" include="true" />
+      </schedule>
+      <schedule id="Every 10 Minutes" timezone="America/Chicago" useservertimezone="false">
+        <trigger recurrmode="minutes" interval="10" endmode="date" repeat="-1" end="0" begin="0" include="true" />
+      </schedule>
+      <schedule id="Every Hour" timezone="America/Chicago" useservertimezone="false">
+        <trigger recurrmode="hours" interval="1" endmode="date" repeat="-1" end="0" begin="0" include="true" />
+      </schedule>
+      <schedule id="Performance Warehouse Clean Up" timezone="America/Chicago" useservertimezone="false">
+        <trigger recurrmode="days" interval="1" endmode="date" repeat="-1" end="0" begin="1369378800000" include="true" />
+      </schedule>
+    </schedules>
+    <tasks rev="74dee9fe-70ec-4b2b-be51-d8b2f9865767">
+      <task id="Performance Warehouse Clean Up Task" rev="232f19df-7ed9-48b9-b8ee-767c8df6c7d5" creationtype="MANUAL" desc="" scheduleref="Performance Warehouse Clean Up" hidden="false" paused="false" type="repositorydeletion" timeout="0">
+        <taskdetail executor="RepoDeletionTask" />
+      </task>
+    </tasks>
+    <monitors rev="74dee9fe-70ec-4b2b-be51-d8b2f9865767" />
+    <configurations>
+      <configuration id="Default" description="" active="true" />
+    </configurations>
+    <uemconfiguration autodetecttype="autodetect_domain">
+      <uemappconfig visittimeoutunit="MINUTES" visittimeout="1800000">
+        <sotwcategory apdexcategory="custom" apdexthreshold="4000" />
+        <uemsensorconfig injectionpercentage="100.0" mobileactionsenddelayinseconds="120" uemmode="CAPTURE_SERVER_AND_ENDUSER_SIDE" domain="" visitpercentageblocksserverside="false" debug="false" respectdonottrackheader="false" debugagentpath="/" agentpath="/">
+          <iprangerulelist includeall="true">
+            <rules />
+          </iprangerulelist>
+          <browserrulelist includeall="true">
+            <rules />
+          </browserrulelist>
+          <jsagentoption agentoption="tp=500,50,0">
+            <modules>
+              <module key="com.dynatrace.diagnostics.knowledgesensor.js.navtiming" />
+            </modules>
+          </jsagentoption>
+          <mobileoptions capturecrashes="on" capturelifecycle="on" maxmobilecrashreportsperminute="5" captureerrors="on" />
+        </uemsensorconfig>
+      </uemappconfig>
+      <applications />
+      <sotwcategoryindex lastupdate="0">
+        <categories>
+          <sotwcategory apdexcategory="Alexa 100" apdexthreshold="3800" />
+          <sotwcategory apdexcategory="Alexa 500" apdexthreshold="4100" />
+          <sotwcategory apdexcategory="Alexa 1000" apdexthreshold="4500" />
+          <sotwcategory apdexcategory="Business" apdexthreshold="3500" />
+          <sotwcategory apdexcategory="News" apdexthreshold="7000" />
+          <sotwcategory apdexcategory="Shopping" apdexthreshold="3600" />
+          <sotwcategory apdexcategory="Sports" apdexthreshold="4900" />
+        </categories>
+      </sotwcategoryindex>
+      <uemhealthcheckconfig>
+        <uemapplicationhealthcheckconfigs />
+      </uemhealthcheckconfig>
+    </uemconfiguration>
+    <dcrumconfig active="true" />
+    <genericagentproperties>
+      <property value="disk(linux,*,/tmp);disk(linux,*,/var/tmp);disk(linux,*,/run);disk(linux,*,/var/run)" key="hostmetrics.inclusions" />
+      <property value="disk(linux,tmpfs,*);disk(linux,*,/dev);disk(linux,cgroup,*);disk(linux,debugfs,*);nic(solaris,mac)" key="hostmetrics.exclusions" />
+    </genericagentproperties>
+    <transactions rev="5e82be8e-7e1c-4b82-8400-e2f802ceeee6" />
+    <incidentrules rev="4b1c2150-f061-4043-808f-6564b4d05439">
+      <incidentrule id="Performance Warehouse - Switching Temp Tables Time" flags="1" incidentdashboardname="Incident Dashboard" description="Triggers when the time required for switching the temporary tables in the Performance Warehouse exceeded the severe threshold" timeframe="10">
+        <conditions>
+          <condition aggregate="last" logicaloperator="and" thresholdseverity="severe" refmetric="Performance Warehouse - Switching Temp Tables Time" refmetricgroup="dynaTrace Server Statistics" refmeasure="Performance Warehouse - Switching Temp Tables Time" />
+        </conditions>
+        <sensitivity id="immediate" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse - Writing Measurements Time (warning)" flags="1" incidentdashboardname="Incident Dashboard" description="Triggers when 3 times the time required for writing measurements into the Performance Warehouse exceeded the warning threshold" timeframe="10">
+        <conditions>
+          <condition aggregate="last" logicaloperator="and" thresholdseverity="warning" refmetric="Performance Warehouse - Writing Measurements Time" refmetricgroup="dynaTrace Server Statistics" refmeasure="Performance Warehouse - Writing Measurements Time" />
+        </conditions>
+        <sensitivity id="userdefined" duration="180" minnonviolatedperiod="120" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse - Writing Measurements Time (severe)" flags="1" incidentdashboardname="Incident Dashboard" description="Triggers when 3 times the time required for writing measurements into the Performance Warehouse exceeded the severe threshold" timeframe="10">
+        <conditions>
+          <condition aggregate="last" logicaloperator="and" thresholdseverity="severe" refmetric="Performance Warehouse - Writing Measurements Time" refmetricgroup="dynaTrace Server Statistics" refmeasure="Performance Warehouse - Writing Measurements Time" />
+        </conditions>
+        <sensitivity id="userdefined" duration="180" minnonviolatedperiod="120" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse - Writing Percentiles Time (warning)" flags="1" incidentdashboardname="Incident Dashboard" description="Triggers when 3 times the time required for writing percentiles into the Performance Warehouse exceeded the warning threshold" timeframe="10">
+        <conditions>
+          <condition aggregate="last" logicaloperator="and" thresholdseverity="warning" refmetric="Performance Warehouse - Writing Percentiles Time" refmetricgroup="dynaTrace Server Statistics" refmeasure="Performance Warehouse - Writing Percentiles Time" />
+        </conditions>
+        <sensitivity id="userdefined" duration="900" minnonviolatedperiod="600" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse - Writing Percentiles Time (severe)" flags="1" incidentdashboardname="Incident Dashboard" description="Triggers when 3 times the time required for writing percentiles into the Performance Warehouse exceeded the severe threshold" timeframe="10">
+        <conditions>
+          <condition aggregate="last" logicaloperator="and" thresholdseverity="severe" refmetric="Performance Warehouse - Writing Percentiles Time" refmetricgroup="dynaTrace Server Statistics" refmeasure="Performance Warehouse - Writing Percentiles Time" />
+        </conditions>
+        <sensitivity id="userdefined" duration="900" minnonviolatedperiod="600" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Gomez Convergence" flags="1" incidentdashboardname="Incident Dashboard" description="Raises Incidents whenever the sending process of Gomez convergence data produces an error, like Gomez server authentication and/or network issues." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="dynaTrace Server Offline" flags="1" incidentdashboardname="Incident Dashboard" description="Signals normal termination of dynaTrace Server." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="dynaTrace Server Offline (unexpected)" flags="1" incidentdashboardname="Incident Dashboard" description="Signals abnormal termination of dynaTrace Server." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Low dynaTrace Server Memory" flags="1" incidentdashboardname="Incident Dashboard" description="Low (non-heap) server memory" timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse" flags="1" incidentdashboardname="Incident Dashboard" description="Triggered by Performance Warehouse related events." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Maximum number of measures reached" flags="1" incidentdashboardname="Incident Dashboard" description="Incident is raised when the maximum number of measures (default=300.000) is reached which is likely caused by a misconfigured Business Transaction." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Repository Clean-Up" flags="1" incidentdashboardname="Incident Dashboard" description="Raised by the repository clean-up task" timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="informational" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Performance Warehouse Offline" flags="1" incidentdashboardname="Incident Dashboard" description="Connection to Performance Warehouse could not be established." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="License" flags="1" incidentdashboardname="Incident Dashboard" description="Raises license related incidents (for example, an expiring license)." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Scheduled Task Execution Failed" flags="1" incidentdashboardname="Incident Dashboard" description="The execution of a scheduled task failed." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Port Conflict" flags="1" incidentdashboardname="Incident Dashboard" description="A port used for communication on the dynaTrace Server could not be opened." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Ambiguous Agent Mapping" flags="1" incidentdashboardname="Incident Dashboard" description="A connected agent is eligible to be mapped to multiple system profiles." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+      <incidentrule id="Low Collector Memory" flags="1" incidentdashboardname="Incident Dashboard" description="Agent-related incidents that are triggered due to low collector heap memory. For example, if an Agent's instrumentation was disabled automatically to free some memory." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Agent Instrumentation Disabled" flags="1" incidentdashboardname="Incident Dashboard" description="Agent automatically disabled its instrumentation. Possible reasons are for example that there was no Collector reachable when the Agent was started up or that the overall instrumentation performance on the Collector was too low." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="File Session Management" flags="1" incidentdashboardname="Incident Dashboard" description="Session Storage related incidents, for example, Disk Quota exceeded, Corrupted Sessions detected,..." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="begin" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Collector Not Connected (unexpected)" flags="1" incidentdashboardname="Incident Dashboard" description="Connection to a previously connected Collector was lost." timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="severe" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.plugins.EmailNotificationAction" smartalert="false" severity="informational" type="Email Notification" refaction="com.dynatrace.diagnostics.plugins.EmailNotification" key="com.dynatrace.diagnostics.plugins.EmailNotification" execution="beginAndEnd" roletype="1">
+            <property typeid="string" value="" key="from" />
+            <property typeid="string" value="group[Incident Email Group]" key="to" />
+            <property typeid="string" value="" key="cc" />
+            <property typeid="string" value="" key="bcc" />
+            <property typeid="string" value="" key="prefix" />
+          </actionref>
+        </actions>
+      </incidentrule>
+      <incidentrule id="Conflicting Agent JVM Options" flags="1" incidentdashboardname="Incident Dashboard" description="Raises incidents for conflicting JVM options" timeframe="10">
+        <sensitivity id="perViolation" duration="0" minnonviolatedperiod="60" delay="0" />
+        <actions>
+          <actionref bundleversion="0.0.0" rolekey="com.dynatrace.diagnostics.logging" smartalert="false" severity="warning" type="Logging Notification" refaction="com.dynatrace.diagnostics.logging" key="com.dynatrace.diagnostics.logging" execution="begin" roletype="1" />
+        </actions>
+      </incidentrule>
+    </incidentrules>
+    <browserdiagnosticsconfig />
+    <mastermonitors rev="e514f154-4fd7-4d21-a136-386da9648561" />
+    <testsconfiguration requiredcalibrationruns="5" volatilepercent="100" notifyfailingrun="false" lowerlimitviolations="2" upperlimitviolations="2" notifyvolatilerun="false" enableautotimers="true" falsepositivepercent="1.0" notifyimprovedrun="false" notifydegradedrun="false" autoacceptimprovedruns="true" />
+    <incidentdowntimerefs rev="6f2fce49-4411-43f9-bde5-26ac58647651" />
+  </systemprofile>
+</dynatrace>
+

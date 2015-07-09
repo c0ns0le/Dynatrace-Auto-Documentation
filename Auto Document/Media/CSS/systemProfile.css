@@ -1,0 +1,5 @@
+.columns { padding:10px; width:100%; overflow:hidden; }
+.leftColumn { float:left; width:50%; }
+.rightColumn { float:right; width:50%;  }
+
+#dynaTraceImage { float:right; }
